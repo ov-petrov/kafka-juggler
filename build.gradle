@@ -6,7 +6,7 @@ plugins {
 
 group = 'ru.petrovov'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '18'
+sourceCompatibility = '17'
 
 configurations {
 	compileOnly {
@@ -30,6 +30,7 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-stream-binder-kafka-streams'
 	implementation 'org.springframework.kafka:spring-kafka'
 	implementation 'net.datafaker:datafaker:1.5.0'
+	implementation 'org.apache.kafka:kafka-clients:3.2.1'
 
 
 	compileOnly 'org.projectlombok:lombok'
