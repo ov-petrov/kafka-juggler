@@ -25,7 +25,8 @@ public class KafkaProducer {
 
     @EventListener(ApplicationReadyEvent.class)
     private void invoke() {
-        createTopicAndPublish();
+//        createTopicAndPublish();
+//        publishToTopic();
     }
 
     private void publishToTopic() {
